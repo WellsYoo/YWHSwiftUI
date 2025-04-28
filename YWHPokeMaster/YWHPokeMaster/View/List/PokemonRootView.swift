@@ -16,6 +16,8 @@ struct PokemonRootView: View {
     }
 }
 
-#Preview {
-    PokemonRootView()
+struct PokemonListRoot_Previews: PreviewProvider {
+    static var previews: some View {
+        PokemonRootView()
+    }
 }

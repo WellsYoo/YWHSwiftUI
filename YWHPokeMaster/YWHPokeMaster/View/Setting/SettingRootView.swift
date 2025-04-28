@@ -2,7 +2,7 @@
 //  SettingRootView.swift
 //  PokeMaster
 //
-//  Created by Harley-xk on 2019/11/19.
+//  Created by Wang Wei on 2019/09/02.
 //  Copyright © 2019 OneV's Den. All rights reserved.
 //
 
@@ -16,6 +16,8 @@ struct SettingRootView: View {
     }
 }
 
-#Preview {
-    SettingRootView()
+struct SettingRootView_Previews: PreviewProvider {
+    static var previews: some View {
+        SettingRootView()
+    }
 }

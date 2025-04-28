@@ -1,25 +1,25 @@
 //
 //  PokemonInfoRow.swift
-//  YWHPokeMaster
+//  PokeMaster
 //
-//  Created by Wells on 2025/4/22.
+//  Created by 王 巍 on 2019/08/29.
+//  Copyright © 2019 OneV's Den. All rights reserved.
 //
 
 import SwiftUI
 
 struct PokemonInfoRow: View {
     let model: PokemonViewModel
-    var expanded: Bool
+    let expanded: Bool
+
     var body: some View {
-        let _ = print("Render: \(model.id) \(expanded)")
         VStack {
             HStack {
-                Image("Pokemon-\(model.id)").resizable().frame(
-                    width: 50,
-                    height: 50
-                )
-                .aspectRatio(contentMode: .fit)
-                .shadow(radius: 4)
+                Image("Pokemon-\(model.id)")
+                    .resizable()
+                    .frame(width: 50, height: 50)
+                    .aspectRatio(contentMode: .fit)
+                    .shadow(radius: 4)
                 Spacer()
                 VStack(alignment: .trailing) {
                     Text(model.name)
@@ -34,12 +34,10 @@ struct PokemonInfoRow: View {
             .padding(.top, 12)
             Spacer()
             HStack(spacing: expanded ? 20 : -30) {
-                
                 Spacer()
                 Button(action: {}) {
                     Image(systemName: "star")
                         .modifier(ToolButtonModifier())
-
                 }
                 Button(action: {}) {
                     Image(systemName: "chart.bar")
@@ -49,10 +47,10 @@ struct PokemonInfoRow: View {
                     Image(systemName: "info.circle")
                         .modifier(ToolButtonModifier())
                 }
-            }.padding(.bottom, 12)
-                .opacity(expanded ? 1.0 : 0.0)
-                .frame(height: expanded ? .infinity : 0)
-
+            }
+            .padding(.bottom, 12)
+            .opacity(expanded ? 1.0 : 0.0)
+            .frame(maxHeight: expanded ? .infinity : 0)
         }
         .frame(height: expanded ? 120 : 80)
         .padding(.leading, 23)
@@ -72,33 +70,24 @@ struct PokemonInfoRow: View {
             }
         )
         .padding(.horizontal)
-        //        .animation(.default,value: expanded)
-//        .onTapGesture {
-//            withAnimation(
-//                .spring(
-//                    response: 0.55,
-//                    dampingFraction: 0.425,
-//                    blendDuration: 0
-//                )
-//            ) {
-//                self.expanded.toggle()
-//            }
-//
-//        }
-        
     }
 }
 
 struct ToolButtonModifier: ViewModifier {
     func body(content: Content) -> some View {
-        content.font(.system(size: 25))
+        content
+            .font(.system(size: 25))
             .foregroundColor(.white)
             .frame(width: 30, height: 30)
-
     }
 }
-#Preview {
-    PokemonInfoRow(model: .sample(id: 1), expanded: false)
-    PokemonInfoRow(model: .sample(id: 21), expanded: true)
-    PokemonInfoRow(model: .sample(id: 25), expanded: false)
+
+struct PokemonInfoRow_Previews: PreviewProvider {
+    static var previews: some View {
+        VStack {
+            PokemonInfoRow(model: .sample(id: 1), expanded: false)
+            PokemonInfoRow(model: .sample(id: 21), expanded: true)
+            PokemonInfoRow(model: .sample(id: 25), expanded: false)
+        }
+    }
 }
