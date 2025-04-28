@@ -9,8 +9,9 @@ import SwiftUI
 
 struct PokemonInfoRow: View {
     let model: PokemonViewModel
-    @State var expanded: Bool
+    var expanded: Bool
     var body: some View {
+        let _ = print("Render: \(model.id) \(expanded)")
         VStack {
             HStack {
                 Image("Pokemon-\(model.id)").resizable().frame(
@@ -33,6 +34,7 @@ struct PokemonInfoRow: View {
             .padding(.top, 12)
             Spacer()
             HStack(spacing: expanded ? 20 : -30) {
+                
                 Spacer()
                 Button(action: {}) {
                     Image(systemName: "star")
@@ -71,18 +73,19 @@ struct PokemonInfoRow: View {
         )
         .padding(.horizontal)
         //        .animation(.default,value: expanded)
-        .onTapGesture {
-            withAnimation(
-                .spring(
-                    response: 0.55,
-                    dampingFraction: 0.425,
-                    blendDuration: 0
-                )
-            ) {
-                self.expanded.toggle()
-            }
-
-        }
+//        .onTapGesture {
+//            withAnimation(
+//                .spring(
+//                    response: 0.55,
+//                    dampingFraction: 0.425,
+//                    blendDuration: 0
+//                )
+//            ) {
+//                self.expanded.toggle()
+//            }
+//
+//        }
+        
     }
 }
 
