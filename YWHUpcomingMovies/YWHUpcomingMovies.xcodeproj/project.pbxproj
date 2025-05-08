@@ -187,11 +187,12 @@
 				};
 			};
 			buildConfigurationList = 1E4C030B2DCCAC290034F000 /* Build configuration list for PBXProject "YWHUpcomingMovies" */;
-			developmentRegion = en;
+			developmentRegion = "zh-Hans";
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
+				"zh-Hans",
 			);
 			mainGroup = 1E4C03072DCCAC290034F000;
 			minimizedProjectReferenceProxies = 1;
