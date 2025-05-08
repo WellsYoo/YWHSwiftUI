@@ -7,62 +7,62 @@
 	objects = {
 
 /* Begin PBXContainerItemProxy section */
-		1ECE8EF12DB62D240041C938 /* PBXContainerItemProxy */ = {
+		1E4C031E2DCCAC2A0034F000 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 1ECE8EDB2DB62D230041C938 /* Project object */;
+			containerPortal = 1E4C03082DCCAC290034F000 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 1ECE8EE22DB62D230041C938;
-			remoteInfo = YWHPokeMaster;
+			remoteGlobalIDString = 1E4C030F2DCCAC290034F000;
+			remoteInfo = YWHUpcomingMovies;
 		};
-		1ECE8EFB2DB62D240041C938 /* PBXContainerItemProxy */ = {
+		1E4C03282DCCAC2A0034F000 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 1ECE8EDB2DB62D230041C938 /* Project object */;
+			containerPortal = 1E4C03082DCCAC290034F000 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 1ECE8EE22DB62D230041C938;
-			remoteInfo = YWHPokeMaster;
+			remoteGlobalIDString = 1E4C030F2DCCAC290034F000;
+			remoteInfo = YWHUpcomingMovies;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1ECE8EE32DB62D230041C938 /* YWHPokeMaster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YWHPokeMaster.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		1ECE8EF02DB62D240041C938 /* YWHPokeMasterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YWHPokeMasterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		1ECE8EFA2DB62D240041C938 /* YWHPokeMasterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YWHPokeMasterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E4C03102DCCAC290034F000 /* YWHUpcomingMovies.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YWHUpcomingMovies.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E4C031D2DCCAC2A0034F000 /* YWHUpcomingMoviesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YWHUpcomingMoviesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E4C03272DCCAC2A0034F000 /* YWHUpcomingMoviesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YWHUpcomingMoviesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		1ECE8EE52DB62D230041C938 /* YWHPokeMaster */ = {
+		1E4C03122DCCAC290034F000 /* YWHUpcomingMovies */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = YWHPokeMaster;
+			path = YWHUpcomingMovies;
 			sourceTree = "<group>";
 		};
-		1ECE8EF32DB62D240041C938 /* YWHPokeMasterTests */ = {
+		1E4C03202DCCAC2A0034F000 /* YWHUpcomingMoviesTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = YWHPokeMasterTests;
+			path = YWHUpcomingMoviesTests;
 			sourceTree = "<group>";
 		};
-		1ECE8EFD2DB62D240041C938 /* YWHPokeMasterUITests */ = {
+		1E4C032A2DCCAC2A0034F000 /* YWHUpcomingMoviesUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = YWHPokeMasterUITests;
+			path = YWHUpcomingMoviesUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		1ECE8EE02DB62D230041C938 /* Frameworks */ = {
+		1E4C030D2DCCAC290034F000 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1ECE8EED2DB62D240041C938 /* Frameworks */ = {
+		1E4C031A2DCCAC2A0034F000 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1ECE8EF72DB62D240041C938 /* Frameworks */ = {
+		1E4C03242DCCAC2A0034F000 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -72,22 +72,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1ECE8EDA2DB62D230041C938 = {
+		1E4C03072DCCAC290034F000 = {
 			isa = PBXGroup;
 			children = (
-				1ECE8EE52DB62D230041C938 /* YWHPokeMaster */,
-				1ECE8EF32DB62D240041C938 /* YWHPokeMasterTests */,
-				1ECE8EFD2DB62D240041C938 /* YWHPokeMasterUITests */,
-				1ECE8EE42DB62D230041C938 /* Products */,
+				1E4C03122DCCAC290034F000 /* YWHUpcomingMovies */,
+				1E4C03202DCCAC2A0034F000 /* YWHUpcomingMoviesTests */,
+				1E4C032A2DCCAC2A0034F000 /* YWHUpcomingMoviesUITests */,
+				1E4C03112DCCAC290034F000 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		1ECE8EE42DB62D230041C938 /* Products */ = {
+		1E4C03112DCCAC290034F000 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1ECE8EE32DB62D230041C938 /* YWHPokeMaster.app */,
-				1ECE8EF02DB62D240041C938 /* YWHPokeMasterTests.xctest */,
-				1ECE8EFA2DB62D240041C938 /* YWHPokeMasterUITests.xctest */,
+				1E4C03102DCCAC290034F000 /* YWHUpcomingMovies.app */,
+				1E4C031D2DCCAC2A0034F000 /* YWHUpcomingMoviesTests.xctest */,
+				1E4C03272DCCAC2A0034F000 /* YWHUpcomingMoviesUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -95,137 +95,134 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		1ECE8EE22DB62D230041C938 /* YWHPokeMaster */ = {
+		1E4C030F2DCCAC290034F000 /* YWHUpcomingMovies */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1ECE8F042DB62D240041C938 /* Build configuration list for PBXNativeTarget "YWHPokeMaster" */;
+			buildConfigurationList = 1E4C03312DCCAC2A0034F000 /* Build configuration list for PBXNativeTarget "YWHUpcomingMovies" */;
 			buildPhases = (
-				1ECE8EDF2DB62D230041C938 /* Sources */,
-				1ECE8EE02DB62D230041C938 /* Frameworks */,
-				1ECE8EE12DB62D230041C938 /* Resources */,
+				1E4C030C2DCCAC290034F000 /* Sources */,
+				1E4C030D2DCCAC290034F000 /* Frameworks */,
+				1E4C030E2DCCAC290034F000 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				1ECE8EE52DB62D230041C938 /* YWHPokeMaster */,
+				1E4C03122DCCAC290034F000 /* YWHUpcomingMovies */,
 			);
-			name = YWHPokeMaster;
+			name = YWHUpcomingMovies;
 			packageProductDependencies = (
 			);
-			productName = YWHPokeMaster;
-			productReference = 1ECE8EE32DB62D230041C938 /* YWHPokeMaster.app */;
+			productName = YWHUpcomingMovies;
+			productReference = 1E4C03102DCCAC290034F000 /* YWHUpcomingMovies.app */;
 			productType = "com.apple.product-type.application";
 		};
-		1ECE8EEF2DB62D240041C938 /* YWHPokeMasterTests */ = {
+		1E4C031C2DCCAC2A0034F000 /* YWHUpcomingMoviesTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1ECE8F072DB62D240041C938 /* Build configuration list for PBXNativeTarget "YWHPokeMasterTests" */;
+			buildConfigurationList = 1E4C03342DCCAC2A0034F000 /* Build configuration list for PBXNativeTarget "YWHUpcomingMoviesTests" */;
 			buildPhases = (
-				1ECE8EEC2DB62D240041C938 /* Sources */,
-				1ECE8EED2DB62D240041C938 /* Frameworks */,
-				1ECE8EEE2DB62D240041C938 /* Resources */,
+				1E4C03192DCCAC2A0034F000 /* Sources */,
+				1E4C031A2DCCAC2A0034F000 /* Frameworks */,
+				1E4C031B2DCCAC2A0034F000 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				1ECE8EF22DB62D240041C938 /* PBXTargetDependency */,
+				1E4C031F2DCCAC2A0034F000 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				1ECE8EF32DB62D240041C938 /* YWHPokeMasterTests */,
+				1E4C03202DCCAC2A0034F000 /* YWHUpcomingMoviesTests */,
 			);
-			name = YWHPokeMasterTests;
+			name = YWHUpcomingMoviesTests;
 			packageProductDependencies = (
 			);
-			productName = YWHPokeMasterTests;
-			productReference = 1ECE8EF02DB62D240041C938 /* YWHPokeMasterTests.xctest */;
+			productName = YWHUpcomingMoviesTests;
+			productReference = 1E4C031D2DCCAC2A0034F000 /* YWHUpcomingMoviesTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		1ECE8EF92DB62D240041C938 /* YWHPokeMasterUITests */ = {
+		1E4C03262DCCAC2A0034F000 /* YWHUpcomingMoviesUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1ECE8F0A2DB62D240041C938 /* Build configuration list for PBXNativeTarget "YWHPokeMasterUITests" */;
+			buildConfigurationList = 1E4C03372DCCAC2A0034F000 /* Build configuration list for PBXNativeTarget "YWHUpcomingMoviesUITests" */;
 			buildPhases = (
-				1ECE8EF62DB62D240041C938 /* Sources */,
-				1ECE8EF72DB62D240041C938 /* Frameworks */,
-				1ECE8EF82DB62D240041C938 /* Resources */,
+				1E4C03232DCCAC2A0034F000 /* Sources */,
+				1E4C03242DCCAC2A0034F000 /* Frameworks */,
+				1E4C03252DCCAC2A0034F000 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				1ECE8EFC2DB62D240041C938 /* PBXTargetDependency */,
+				1E4C03292DCCAC2A0034F000 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				1ECE8EFD2DB62D240041C938 /* YWHPokeMasterUITests */,
+				1E4C032A2DCCAC2A0034F000 /* YWHUpcomingMoviesUITests */,
 			);
-			name = YWHPokeMasterUITests;
+			name = YWHUpcomingMoviesUITests;
 			packageProductDependencies = (
 			);
-			productName = YWHPokeMasterUITests;
-			productReference = 1ECE8EFA2DB62D240041C938 /* YWHPokeMasterUITests.xctest */;
+			productName = YWHUpcomingMoviesUITests;
+			productReference = 1E4C03272DCCAC2A0034F000 /* YWHUpcomingMoviesUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		1ECE8EDB2DB62D230041C938 /* Project object */ = {
+		1E4C03082DCCAC290034F000 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1630;
 				LastUpgradeCheck = 1630;
 				TargetAttributes = {
-					1ECE8EE22DB62D230041C938 = {
+					1E4C030F2DCCAC290034F000 = {
 						CreatedOnToolsVersion = 16.3;
 					};
-					1ECE8EEF2DB62D240041C938 = {
+					1E4C031C2DCCAC2A0034F000 = {
 						CreatedOnToolsVersion = 16.3;
-						TestTargetID = 1ECE8EE22DB62D230041C938;
+						TestTargetID = 1E4C030F2DCCAC290034F000;
 					};
-					1ECE8EF92DB62D240041C938 = {
+					1E4C03262DCCAC2A0034F000 = {
 						CreatedOnToolsVersion = 16.3;
-						TestTargetID = 1ECE8EE22DB62D230041C938;
+						TestTargetID = 1E4C030F2DCCAC290034F000;
 					};
 				};
 			};
-			buildConfigurationList = 1ECE8EDE2DB62D230041C938 /* Build configuration list for PBXProject "YWHPokeMaster" */;
+			buildConfigurationList = 1E4C030B2DCCAC290034F000 /* Build configuration list for PBXProject "YWHUpcomingMovies" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = 1ECE8EDA2DB62D230041C938;
+			mainGroup = 1E4C03072DCCAC290034F000;
 			minimizedProjectReferenceProxies = 1;
-			packageReferences = (
-				1ECCE1BD2DC0B86A00508532 /* XCRemoteSwiftPackageReference "Kingfisher" */,
-			);
 			preferredProjectObjectVersion = 77;
-			productRefGroup = 1ECE8EE42DB62D230041C938 /* Products */;
+			productRefGroup = 1E4C03112DCCAC290034F000 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1ECE8EE22DB62D230041C938 /* YWHPokeMaster */,
-				1ECE8EEF2DB62D240041C938 /* YWHPokeMasterTests */,
-				1ECE8EF92DB62D240041C938 /* YWHPokeMasterUITests */,
+				1E4C030F2DCCAC290034F000 /* YWHUpcomingMovies */,
+				1E4C031C2DCCAC2A0034F000 /* YWHUpcomingMoviesTests */,
+				1E4C03262DCCAC2A0034F000 /* YWHUpcomingMoviesUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		1ECE8EE12DB62D230041C938 /* Resources */ = {
+		1E4C030E2DCCAC290034F000 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1ECE8EEE2DB62D240041C938 /* Resources */ = {
+		1E4C031B2DCCAC2A0034F000 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1ECE8EF82DB62D240041C938 /* Resources */ = {
+		1E4C03252DCCAC2A0034F000 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -235,21 +232,21 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		1ECE8EDF2DB62D230041C938 /* Sources */ = {
+		1E4C030C2DCCAC290034F000 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1ECE8EEC2DB62D240041C938 /* Sources */ = {
+		1E4C03192DCCAC2A0034F000 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1ECE8EF62DB62D240041C938 /* Sources */ = {
+		1E4C03232DCCAC2A0034F000 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -259,20 +256,20 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		1ECE8EF22DB62D240041C938 /* PBXTargetDependency */ = {
+		1E4C031F2DCCAC2A0034F000 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 1ECE8EE22DB62D230041C938 /* YWHPokeMaster */;
-			targetProxy = 1ECE8EF12DB62D240041C938 /* PBXContainerItemProxy */;
+			target = 1E4C030F2DCCAC290034F000 /* YWHUpcomingMovies */;
+			targetProxy = 1E4C031E2DCCAC2A0034F000 /* PBXContainerItemProxy */;
 		};
-		1ECE8EFC2DB62D240041C938 /* PBXTargetDependency */ = {
+		1E4C03292DCCAC2A0034F000 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 1ECE8EE22DB62D230041C938 /* YWHPokeMaster */;
-			targetProxy = 1ECE8EFB2DB62D240041C938 /* PBXContainerItemProxy */;
+			target = 1E4C030F2DCCAC290034F000 /* YWHUpcomingMovies */;
+			targetProxy = 1E4C03282DCCAC2A0034F000 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		1ECE8F022DB62D240041C938 /* Debug */ = {
+		1E4C032F2DCCAC2A0034F000 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -336,7 +333,7 @@
 			};
 			name = Debug;
 		};
-		1ECE8F032DB62D240041C938 /* Release */ = {
+		1E4C03302DCCAC2A0034F000 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -393,7 +390,7 @@
 			};
 			name = Release;
 		};
-		1ECE8F052DB62D240041C938 /* Debug */ = {
+		1E4C03322DCCAC2A0034F000 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -413,7 +410,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.swiftui.ywh.YWHPokeMaster;
+				PRODUCT_BUNDLE_IDENTIFIER = com.swiftui.movie.YWHUpcomingMovies;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -421,7 +418,7 @@
 			};
 			name = Debug;
 		};
-		1ECE8F062DB62D240041C938 /* Release */ = {
+		1E4C03332DCCAC2A0034F000 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -441,7 +438,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.swiftui.ywh.YWHPokeMaster;
+				PRODUCT_BUNDLE_IDENTIFIER = com.swiftui.movie.YWHUpcomingMovies;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -449,7 +446,7 @@
 			};
 			name = Release;
 		};
-		1ECE8F082DB62D240041C938 /* Debug */ = {
+		1E4C03352DCCAC2A0034F000 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -459,16 +456,16 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.swiftui.ywh.YWHPokeMasterTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.swiftui.movie.YWHUpcomingMoviesTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YWHPokeMaster.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/YWHPokeMaster";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YWHUpcomingMovies.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/YWHUpcomingMovies";
 			};
 			name = Debug;
 		};
-		1ECE8F092DB62D240041C938 /* Release */ = {
+		1E4C03362DCCAC2A0034F000 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -478,16 +475,16 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.swiftui.ywh.YWHPokeMasterTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.swiftui.movie.YWHUpcomingMoviesTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YWHPokeMaster.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/YWHPokeMaster";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YWHUpcomingMovies.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/YWHUpcomingMovies";
 			};
 			name = Release;
 		};
-		1ECE8F0B2DB62D240041C938 /* Debug */ = {
+		1E4C03382DCCAC2A0034F000 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -495,16 +492,16 @@
 				DEVELOPMENT_TEAM = QWDQBH43YB;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.swiftui.ywh.YWHPokeMasterUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.swiftui.movie.YWHUpcomingMoviesUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = YWHPokeMaster;
+				TEST_TARGET_NAME = YWHUpcomingMovies;
 			};
 			name = Debug;
 		};
-		1ECE8F0C2DB62D240041C938 /* Release */ = {
+		1E4C03392DCCAC2A0034F000 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -512,66 +509,55 @@
 				DEVELOPMENT_TEAM = QWDQBH43YB;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.swiftui.ywh.YWHPokeMasterUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.swiftui.movie.YWHUpcomingMoviesUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = YWHPokeMaster;
+				TEST_TARGET_NAME = YWHUpcomingMovies;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1ECE8EDE2DB62D230041C938 /* Build configuration list for PBXProject "YWHPokeMaster" */ = {
+		1E4C030B2DCCAC290034F000 /* Build configuration list for PBXProject "YWHUpcomingMovies" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1ECE8F022DB62D240041C938 /* Debug */,
-				1ECE8F032DB62D240041C938 /* Release */,
+				1E4C032F2DCCAC2A0034F000 /* Debug */,
+				1E4C03302DCCAC2A0034F000 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1ECE8F042DB62D240041C938 /* Build configuration list for PBXNativeTarget "YWHPokeMaster" */ = {
+		1E4C03312DCCAC2A0034F000 /* Build configuration list for PBXNativeTarget "YWHUpcomingMovies" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1ECE8F052DB62D240041C938 /* Debug */,
-				1ECE8F062DB62D240041C938 /* Release */,
+				1E4C03322DCCAC2A0034F000 /* Debug */,
+				1E4C03332DCCAC2A0034F000 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1ECE8F072DB62D240041C938 /* Build configuration list for PBXNativeTarget "YWHPokeMasterTests" */ = {
+		1E4C03342DCCAC2A0034F000 /* Build configuration list for PBXNativeTarget "YWHUpcomingMoviesTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1ECE8F082DB62D240041C938 /* Debug */,
-				1ECE8F092DB62D240041C938 /* Release */,
+				1E4C03352DCCAC2A0034F000 /* Debug */,
+				1E4C03362DCCAC2A0034F000 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1ECE8F0A2DB62D240041C938 /* Build configuration list for PBXNativeTarget "YWHPokeMasterUITests" */ = {
+		1E4C03372DCCAC2A0034F000 /* Build configuration list for PBXNativeTarget "YWHUpcomingMoviesUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1ECE8F0B2DB62D240041C938 /* Debug */,
-				1ECE8F0C2DB62D240041C938 /* Release */,
+				1E4C03382DCCAC2A0034F000 /* Debug */,
+				1E4C03392DCCAC2A0034F000 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCRemoteSwiftPackageReference section */
-		1ECCE1BD2DC0B86A00508532 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 8.3.2;
-			};
-		};
-/* End XCRemoteSwiftPackageReference section */
 	};
-	rootObject = 1ECE8EDB2DB62D230041C938 /* Project object */;
+	rootObject = 1E4C03082DCCAC290034F000 /* Project object */;
 }
